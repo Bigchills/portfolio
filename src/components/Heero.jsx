@@ -1,4 +1,5 @@
 import React from 'react'
+import image1 from 'src/images/3D.png'
 
 const Heero = () => {
   return (
@@ -20,10 +21,10 @@ const Heero = () => {
                 </p>
             </div>
             <div className=" cube animate-rotateCube mx-auto justify-center items-center hidden dark:block ">
-                <img className="face front w-1/2 animate-flip3d rounded-md  " src="Images/3D.png" href="src/assets/3D.png" alt="front" />
-                <img className="face back w-1/2 animate-flip3d rounded-md " src="Images/3D.png" alt="back" />
-                <img className="face right w-1/2 animate-flip3d rounded-md  " src="Images/3D.png" alt="right" />
-                <img className="face left w-1/2 animate-flip3d rounded-md " src="Images/3D.png" alt="left" />
+                <img className="face front w-1/2 animate-flip3d rounded-md  " src={image1} href="src/assets/3D.png" alt="front" />
+                <img className="face back w-1/2 animate-flip3d rounded-md " src="" alt="back" />
+                <img className="face right w-1/2 animate-flip3d rounded-md  " src="" alt="right" />
+                <img className="face left w-1/2 animate-flip3d rounded-md " src="" alt="left" />
             </div>
 
             <div className=" cube animate-rotateCube mx-auto justify-center items-center dark:hidden ">

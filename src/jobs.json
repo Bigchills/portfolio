@@ -2,13 +2,13 @@
     {
       "title": "Roomieapp",
       "description": "This is a social media app that is being developed to help local communities interact (under development)",
-      "imageUrl": "Images/roomieapp.jpg",
+      "imageUrl": "src/Images/roomieapp.jpg",
       "link": "https://roomieapp.netlify.app/"
     },
     {
       "title": "Northcart",
       "description": "This is an ecomerce store for clothing items(under development)",
-      "imageUrl": "Images/northcart.jpg",
+      "imageUrl": "src/Images/northcart.jpg",
       "link": "https://northcart.netlify.app/"
     },
 
@@ -16,14 +16,14 @@
     {
         "title": "logtravel",
         "description": "Logtravel is a site that helps travellers explore their destinations",
-        "imageUrl": "Images/logtravel.jpg",
+        "imageUrl": "src/Images/logtravel.jpg",
         "link": "https://logtravel.netlify.app/"
       },
 
       {
         "title": "Jadbooking",
         "description": "jadbooking is a travel booking agency ",
-        "imageUrl": "Images/jadbooking.jpg",
+        "imageUrl": "src/Images/jadbooking.jpg",
         "link": "https://jadbooking.netlify.app/"
       }
 
