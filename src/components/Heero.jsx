@@ -20,17 +20,17 @@ const Heero = () => {
                 </p>
             </div>
             <div className=" cube animate-rotateCube mx-auto justify-center items-center hidden dark:block ">
-                <img className="face front w-1/2 animate-flip3d rounded-md " src="src/assets/3D.jpg" alt="front" />
+                <img className="face front w-1/2 animate-flip3d rounded-md  bg-black" src="src/assets/3D.jpg" alt="front" />
                 <img className="face back w-1/2 animate-flip3d rounded-md " src="src/assets/3D.jpg" alt="back" />
                 <img className="face right w-1/2 animate-flip3d rounded-md  " src="src/assets/3D.jpg" alt="right" />
                 <img className="face left w-1/2 animate-flip3d rounded-md " src="src/assets/3D.jpg" alt="left" />
             </div>
 
             <div className=" cube animate-rotateCube mx-auto justify-center items-center dark:hidden ">
-                <img className="face front w-1/2 animate-flip3d rounded-md " src="src/assets/DigiBoy-re.jpg" alt="front" />
-                <img className="face back w-1/2 animate-flip3d rounded-md " src="src/assets/DigiBoy-re.jpg" alt="back" />
-                <img className="face right w-1/2 animate-flip3d rounded-md  " src="src/assets/DigiBoy-re.jpg" alt="right" />
-                <img className="face left w-1/2 animate-flip3d rounded-md " src="src/assets/DigiBoy-re.jpg" alt="left" />
+                <img className="face front w-1/2 animate-flip3d rounded-md " src="src/assets/DigiBoy.jpg" alt="front" />
+                <img className="face back w-1/2 animate-flip3d rounded-md " src="src/assets/DigiBoy.jpg" alt="back" />
+                <img className="face right w-1/2 animate-flip3d rounded-md  " src="src/assets/DigiBoy.jpg" alt="right" />
+                <img className="face left w-1/2 animate-flip3d rounded-md " src="src/assets/DigiBoy.jpg" alt="left" />
             </div>
         </div>
 
