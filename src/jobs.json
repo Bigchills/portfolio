@@ -1,0 +1,31 @@
+[
+    {
+      "title": "Roomieapp",
+      "description": "This is a social media app that is being developed to help local communities interact (under development)",
+      "imageUrl": "src/assets/roomieapp.png",
+      "link": "src/assets/roomieapp.png"
+    },
+    {
+      "title": "Northcart",
+      "description": "This is an ecomerce store for clothing items(under development)",
+      "imageUrl": "src/assets/northcart.png",
+      "link": "https://northcart.netlify.app/"
+    },
+
+
+    {
+        "title": "logtravel",
+        "description": "Logtravel is a site that helps travellers explore their destinations",
+        "imageUrl": "src/assets/logtravel.png",
+        "link": "https://logtravel.netlify.app/"
+      },
+
+      {
+        "title": "Jadbooking",
+        "description": "jadbooking is a travel booking agency ",
+        "imageUrl": "src/assets/jadbooking.png",
+        "link": "https://jadbooking.netlify.app/"
+      }
+
+  ]
+  

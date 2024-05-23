@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .cube {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+  }
+  
+  .face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    backface-visibility: hidden;
+  }
+  
+  .front  { transform: rotateY(  0deg) translateZ(75px); }
+  .back   { transform: rotateY(180deg) translateZ(75px); }
+  .right  { transform: rotateY( 90deg) translateZ(75px); }
+  .left   { transform: rotateY(-90deg) translateZ(75px); }
+  
+  /* Ensure the images fill the faces properly */
+  .face img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @keyframes lineMove {
+    0% {
+      transform: translate(0);
+    }
+    50% {
+      transform: translate(10px, 10px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  .animate-lineMove {
+    animation: lineMove 4s linear infinite;
+  }
