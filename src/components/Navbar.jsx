@@ -9,7 +9,7 @@ const Navbar = ({ setDarkMode, darkMode }) => {
     
   return (
     <div className="dark:bg-slate-950">
-        <nav className="flex  justify-between items-center px-3 py-3 sticky top-0 ">
+        <nav className="flex  justify-between items-center px-6 py-3 sticky top-0 ">
             <div>
                 <h2 className="font-semibold border border-slate-300
                     font-sans px-2 py-1 dark:text-yellow-500">
